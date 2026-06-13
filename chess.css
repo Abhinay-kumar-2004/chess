@@ -1,0 +1,23 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    height:400px;
+    width:400px;
+    display:grid;
+    grid-template-rows: repeat(8,1fr);
+    grid-template-columns: repeat(8,1fr);
+    background-color: pink;
+}
+
+body{
+    background-color: black;
+}
+.white{
+    background-color: white;
+}
+.brown{
+    background-color: brown;
+}
